@@ -26,32 +26,28 @@ header .logo {
 .header-navigation__item {
   width: 15%;
   flex-basis: 15%;
-  display: block;
-  position: relative;
+  display: inline-flex;
+  align-items: center;
 }
 
 .header-navigation__item::before {
   content: '';
   display: block;
   width: 100%;
+  margin-top: 12px;
+  margin-bottom: 11px;
   height: 1px;
   background-color: rgba(0,0,0,0.4);
-  position: absolute;
-  top: 14px;
-  z-index: -1;
 }
 
-.header-navigation__item:first-child {
-  text-align: right;
+.header-navigation__item:last-child {
+  flex-direction: row-reverse;
 }
 
 .header-navigation a {
-  background-color: #fff;
   padding: 0 6px;
 }
 
 .header-navigation a.disabled {
-  color: transparent;
-  pointer-events: none;
-  background-color: transparent;
+  display: none;
 }

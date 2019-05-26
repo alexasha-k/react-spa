@@ -4,12 +4,9 @@ import SlideTwo from '../slides/SlideTwo';
 import SlideThree from '../slides/SlideThree';
 import SlideFour from '../slides/SlideFour';
 
-const slides = [
-  <SlideOne />,
-  <SlideTwo />,
-  <SlideThree />,
-  <SlideFour />
-]
+import items from '../collections.json';
+
+import './Detailed.css';
 
 const SliderControl = (props) => {
   const arr = Array.from({length: props.slidesCount}, (v, i) => {
@@ -22,8 +19,9 @@ const SliderControl = (props) => {
     props.onChangeCurrentSlide(+num - 1);
   }
   return arr.map((item) => {
+    const classes = (+item - 1 === +props.current) ? 'slider-control current' : 'slider-control'
     return (
-      <div key={item.toString()} className="slider-control" onClick={() => changeCurrentSlide(item)}>{item}</div>
+      <div key={item.toString()} className={classes} onClick={() => changeCurrentSlide(item)}>{item}</div>
     )
   })
 }
@@ -33,19 +31,35 @@ class Detailed extends React.Component {
   constructor(props) {
     super(props);
     this.state = {currentSlide: 0}
+    this.slides = [
+      <SlideOne item={this.getItemData(1)}/>,
+      <SlideTwo item={this.getItemData(1)} />,
+      <SlideThree item={this.getItemData(1)} />,
+      <SlideFour item={this.getItemData(1)} />
+    ]
   }
 
   changeCurrentSlide = (newVal) => {
     this.setState({currentSlide: newVal})
   }
 
+  renderSlide = (curNum) => {
+    return this.slides[curNum]
+  }
+
+  getItemData = (id) => {
+    return items.find((el) => +el.id === id);
+  }
+
   render() {
-    const current = slides[this.state.currentSlide];
+    const item = items.find((el) => +el.id === 1)
     return (
       <div className="Detailed">
-        {current}, {slides[this.state.currentSlide]}
+        {this.renderSlide(this.state.currentSlide)}
         <div className="slider-controls">
-          <SliderControl onChangeCurrentSlide={this.changeCurrentSlide} slidesCount={slides.length}/>
+          <SliderControl onChangeCurrentSlide={this.changeCurrentSlide}
+                          slidesCount={this.slides.length}
+                          current={this.state.currentSlide}/>
         </div>
       </div>
     )

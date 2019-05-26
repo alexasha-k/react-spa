@@ -4,7 +4,9 @@
   transform-origin: left top;
   bottom: 20%;
   width: 315px;
-  left: 60px;
+  left: 46px;
+  display: flex;
+  align-items: center;
 }
 
 .s-networks::after {
@@ -13,14 +15,7 @@
   width: 100%;
   height: 1px;
   background-color: #000;
-  position: absolute;
-  top: 14px;
   z-index: -1;
-}
-
-.s-networks nav {
-  background-color: #fff;
-  display: inline-block;
 }
 
 .s-networks a {
