@@ -1,68 +1,85 @@
-import React from 'react';
-import SlideOne from '../slides/SlideOne';
-import SlideTwo from '../slides/SlideTwo';
-import SlideThree from '../slides/SlideThree';
-import SlideFour from '../slides/SlideFour';
+import React, { Component } from "react";
+import SliderControl from "./SliderControl";
+import SlideOne from "../slides/SlideOne";
+import SlideTwo from "../slides/SlideTwo";
+import SlideThree from "../slides/SlideThree";
+import SlideFour from "../slides/SlideFour";
 
-import items from '../collections.json';
+import items from "../collections.json";
 
-import './Detailed.css';
+import "./Detailed.css";
 
-const SliderControl = (props) => {
-  const arr = Array.from({length: props.slidesCount}, (v, i) => {
-    if (i+1 < 10) {
-      return `0${i+1}`;
+class Detailed extends Component {
+  state = {
+    currentSlide: 0,
+    item: {},
+    slidesLength: 4
+  };
+
+  getItemData = () => {
+    const id = +this.props.match.params.id;
+    const currentItem = items.find(el => +el.id === id);
+    this.setState({ item: currentItem });
+  };
+
+  changeCurrentSlide = newVal => {
+    this.setState({ currentSlide: newVal });
+  };
+
+  countNewSlideVal = num => {
+    if (num > 0) {
+      const slide =
+        this.state.currentSlide + 1 < this.state.slidesLength
+          ? this.state.currentSlide + 1
+          : 0;
+      this.changeCurrentSlide(slide);
+    } else if (num < 0) {
+      const slide =
+        this.state.currentSlide - 1 >= 0
+          ? this.state.currentSlide - 1
+          : this.state.slidesLength - 1;
+      this.changeCurrentSlide(slide);
     }
-    return (i+1).toString()
-  });
-  function changeCurrentSlide(num) {
-    props.onChangeCurrentSlide(+num - 1);
-  }
-  return arr.map((item) => {
-    const classes = (+item - 1 === +props.current) ? 'slider-control current' : 'slider-control'
-    return (
-      <div key={item.toString()} className={classes} onClick={() => changeCurrentSlide(item)}>{item}</div>
-    )
-  })
-}
+  };
 
-class Detailed extends React.Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {currentSlide: 0}
-    this.slides = [
-      <SlideOne item={this.getItemData(1)}/>,
-      <SlideTwo item={this.getItemData(1)} />,
-      <SlideThree item={this.getItemData(1)} />,
-      <SlideFour item={this.getItemData(1)} />
-    ]
+  componentDidMount() {
+    this.getItemData();
   }
 
-  changeCurrentSlide = (newVal) => {
-    this.setState({currentSlide: newVal})
+  componentDidUpdate(prevProps, prevState) {
+    if (+this.props.match.params.id !== prevState.item.id) {
+      this.getItemData();
+      this.props.onChangePage(+this.props.match.params.id);
+    }
+    console.log(prevProps, prevState);
   }
 
-  renderSlide = (curNum) => {
-    return this.slides[curNum]
-  }
-
-  getItemData = (id) => {
-    return items.find((el) => +el.id === id);
-  }
+  renderSlide = num => {
+    const slides = [
+      <SlideOne item={this.state.item} />,
+      <SlideTwo item={this.state.item} />,
+      <SlideThree item={this.state.item} />,
+      <SlideFour item={this.state.item} />
+    ];
+    return slides[num];
+  };
 
   render() {
-    const item = items.find((el) => +el.id === 1)
     return (
-      <div className="Detailed">
+      <div
+        className="Detailed"
+        onWheel={evt => this.countNewSlideVal(evt.deltaY)}
+      >
         {this.renderSlide(this.state.currentSlide)}
         <div className="slider-controls">
-          <SliderControl onChangeCurrentSlide={this.changeCurrentSlide}
-                          slidesCount={this.slides.length}
-                          current={this.state.currentSlide}/>
+          <SliderControl
+            onChangeCurrentSlide={this.changeCurrentSlide}
+            slidesCount={this.state.slidesLength}
+            current={this.state.currentSlide}
+          />
         </div>
       </div>
-    )
+    );
   }
 }
 

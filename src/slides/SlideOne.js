@@ -3,7 +3,6 @@ import React from 'react';
 import './slides.css';
 
 const SlideOne = (props) => {
-  console.log(props);
   return (
     <div className="SlideOne">
       <div className="w50 h100 flex-column">

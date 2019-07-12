@@ -1,17 +1,41 @@
-import React from 'react';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import "./Header.css";
 
-import './Header.css';
-
-const Header = () => {
-  return (
-    <header>
-      <div className="logo">Agata Bielen</div>
-      <nav className="header-navigation">
-        <div className="header-navigation__item"><a href="#prev" className="disabled">previous</a></div>
-        <div className="header-navigation__item"><a href="#next" className="disabled">next</a></div>
-      </nav>
-    </header>
-  )
+class Header extends Component {
+  render() {
+    const prev =
+      this.props.currentCollection - 1 < 1
+        ? 15
+        : this.props.currentCollection - 1;
+    const next =
+      this.props.currentCollection + 1 > 15
+        ? 1
+        : this.props.currentCollection + 1;
+    return (
+      <header>
+        <div className="logo">Agata Bielen</div>
+        <nav className="header-navigation">
+          <div className="header-navigation__item">
+            <Link
+              to={"/collection/" + prev}
+              className={this.props.mainPage ? "disabled" : ""}
+            >
+              previous
+            </Link>
+          </div>
+          <div className="header-navigation__item">
+            <Link
+              to={"/collection/" + next}
+              className={this.props.mainPage ? "disabled" : ""}
+            >
+              next
+            </Link>
+          </div>
+        </nav>
+      </header>
+    );
+  }
 }
 
 export default Header;

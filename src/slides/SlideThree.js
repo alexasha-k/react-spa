@@ -2,7 +2,7 @@ import React from 'react';
 
 const SlideThree = (props) => (
   <div className="SlideThree">
-    <div className="w50 h100 bg-gray flex-center">
+    <div className="w50 h100 flex-center">
       <div className="figure">
         <div className="image">
           <img src={props.item.imageLink3} alt={props.item.name}/>
