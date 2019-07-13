@@ -21,7 +21,7 @@
 }
 
 .slider-control:not(:last-child):after {
-  content: '';
+  content: "";
   display: block;
   width: 1px;
   height: 0;
@@ -33,7 +33,7 @@
 }
 
 .slider-control:not(:first-child):before {
-  content: '';
+  content: "";
   display: block;
   width: 1px;
   height: 0;
@@ -51,4 +51,10 @@
 .slider-control:not(:first-child).current:before {
   height: 130px;
   margin-bottom: 16px;
+}
+
+@media (orientation: portrait) {
+  .slider-controls {
+    right: 10px;
+  }
 }

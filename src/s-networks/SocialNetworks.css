@@ -7,10 +7,11 @@
   left: 46px;
   display: flex;
   align-items: center;
+  z-index: 2;
 }
 
 .s-networks::after {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 1px;
@@ -21,4 +22,10 @@
 .s-networks a {
   color: #000;
   margin-right: 40px;
+}
+
+@media (orientation: portrait) {
+  .s-networks {
+    left: 2px;
+  }
 }

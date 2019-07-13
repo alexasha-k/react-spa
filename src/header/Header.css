@@ -31,13 +31,13 @@ header .logo {
 }
 
 .header-navigation__item::before {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   margin-top: 12px;
   margin-bottom: 11px;
   height: 1px;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .header-navigation__item:last-child {
@@ -50,4 +50,13 @@ header .logo {
 
 .header-navigation a.disabled {
   display: none;
+}
+
+@media (orientation: portrait) {
+  header {
+    padding: 20px 16px 0;
+  }
+  header .logo {
+    font-size: 20px;
+  }
 }

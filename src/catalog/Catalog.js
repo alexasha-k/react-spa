@@ -83,6 +83,10 @@ class Catalog extends Component {
       }
     ]
   };
+
+  componentDidMount() {
+    this.props.onChangePage();
+  }
   render() {
     return (
       <div>

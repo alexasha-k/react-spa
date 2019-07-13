@@ -1,16 +1,24 @@
-import React from 'react';
+import React from "react";
 
-import './SocialNetworks.css';
+import "./SocialNetworks.css";
 
 const SocialNetworks = () => {
   return (
     <div className="s-networks">
       <nav>
-        <a href="#instagram">instagram</a>
-        <a href="#twitter">twitter</a>
+        <a
+          href="https://www.instagram.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          instagram
+        </a>
+        <a href="https://twitter.com" rel="noopener noreferrer" target="_blank">
+          twitter
+        </a>
       </nav>
     </div>
-  )
-}
+  );
+};
 
 export default SocialNetworks;

@@ -1,6 +1,12 @@
-.SlideOne, .SlideTwo, .SlideThree, .SlideFour {
+.SlideOne,
+.SlideTwo,
+.SlideThree,
+.SlideFour {
   width: 100%;
   height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .SlideOne {
@@ -109,7 +115,6 @@
 }
 
 .diamond {
-
 }
 
 .SlideTwo .image {
@@ -146,7 +151,6 @@
 }
 
 .SlideThree .image {
-
 }
 
 .SlideThree .figure-caption {
@@ -195,4 +199,61 @@
 
 .SlideFour .season {
   letter-spacing: -0.72px;
+}
+
+@media (orientation: portrait) {
+  .SlideOne h2 {
+    margin-top: 28%;
+    position: relative;
+    z-index: 2;
+  }
+  .SlideOne .text {
+    margin-left: 15%;
+  }
+  .SlideOne .image {
+    max-width: 100%;
+    align-self: flex-start;
+    margin-top: 34%;
+    margin-left: -20px;
+  }
+  .SlideTwo .image {
+    width: 100%;
+  }
+  .SlideTwo .image img {
+    max-width: 100%;
+  }
+  .SlideTwo .slogan pre {
+    font-size: 13vw;
+  }
+  .SlideThree .figure {
+    width: 100%;
+  }
+  .SlideThree .figure img {
+    max-width: 100%;
+  }
+  .SlideThree .figure-caption {
+    padding: 0 16px 0 30px;
+  }
+  .SlideThree .slogan {
+    font-size: 28px;
+    line-height: 1.1;
+    width: 100%;
+    padding: 0 20px 0 16px;
+  }
+  .SlideFour .flex-center {
+    flex-wrap: wrap;
+  }
+  .SlideFour .season {
+    margin-top: 20%;
+  }
+  .SlideFour .season,
+  .SlideFour .year {
+    flex-basis: auto;
+  }
+  .SlideFour .year {
+    margin-bottom: 20%;
+  }
+  .SlideFour .image {
+    margin-bottom: 5vh;
+  }
 }

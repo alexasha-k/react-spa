@@ -18,7 +18,7 @@ class Header extends Component {
         <nav className="header-navigation">
           <div className="header-navigation__item">
             <Link
-              to={"/collection/" + prev}
+              to={"/collection/" + prev + "/1"}
               className={this.props.mainPage ? "disabled" : ""}
             >
               previous
@@ -26,7 +26,7 @@ class Header extends Component {
           </div>
           <div className="header-navigation__item">
             <Link
-              to={"/collection/" + next}
+              to={"/collection/" + next + "/1"}
               className={this.props.mainPage ? "disabled" : ""}
             >
               next

@@ -8,7 +8,7 @@ const CatalogItems = props => {
       <div className="item-title">{item.name}</div>
       <Link
         className="link arrow-link"
-        to={{ pathname: `/collection/${item.id}` }}
+        to={{ pathname: `/collection/${item.id}/1` }}
       >
         →
       </Link>
