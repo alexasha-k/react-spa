@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const CatalogItems = props => {
   return props.items.map(item => (
     <div className="all-catalog__item" key={item.id}>
-      <div className="item-number">Coll. N°{item.id}</div>
+      <div className="item-number">Beach N°{item.id}</div>
       <div className="item-title">{item.name}</div>
       <Link
         className="link arrow-link"
@@ -12,7 +12,11 @@ const CatalogItems = props => {
       >
         →
       </Link>
-      <img className="item-image" src={item.imageLink} alt={item.name} />
+      {item.imageLink ? (
+        <img className="item-image" src={item.imageLink} alt={item.name} />
+      ) : (
+        ""
+      )}
     </div>
   ));
 };

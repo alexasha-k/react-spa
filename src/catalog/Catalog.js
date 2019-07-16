@@ -8,78 +8,67 @@ class Catalog extends Component {
     items: [
       {
         id: 1,
-        name: "Right Line",
-        imageLink: "/images/catalog1.jpg"
+        name: "Surfers Paradise",
+        imageLink: "/images/beaches/beach1.jpg"
       },
       {
         id: 2,
-        name: "Nature Line",
-        imageLink: "/images/catalog2.jpg"
+        name: "Wineglass Bay",
+        imageLink: "/images/beaches/beach2.jpg"
       },
       {
         id: 3,
-        name: "Storm Line",
-        imageLink: "/images/catalog1.jpg"
+        name: "Whitehaven Beach"
       },
       {
         id: 4,
-        name: "Valley Line",
-        imageLink: "/images/catalog1.jpg"
+        name: "Wategos Beach"
       },
       {
         id: 5,
-        name: "Mountain Line",
-        imageLink: "/images/catalog1.jpg"
+        name: "Turquoise Bay"
       },
       {
         id: 6,
-        name: "Desert Line",
-        imageLink: "/images/catalog1.jpg"
+        name: "Shelly Beach"
       },
       {
         id: 7,
-        name: "Woods Line",
-        imageLink: "/images/catalog1.jpg"
+        name: "Second Valley Beach"
       },
       {
         id: 8,
-        name: "Beach Line",
-        imageLink: "/images/catalog1.jpg"
+        name: "Seal Rocks"
       },
       {
         id: 9,
-        name: "Gold Line",
-        imageLink: "/images/catalog1.jpg"
+        name: "Nudey Beach"
       },
       {
         id: 10,
-        name: "Silver Line",
-        imageLink: "/images/catalog1.jpg"
+        name: "Noosa Heads"
       },
       {
         id: 11,
-        name: "Bronce Line",
-        imageLink: "/images/catalog1.jpg"
+        name: "Manly Beach"
       },
       {
         id: 12,
-        name: "Lion Line",
-        imageLink: "/images/catalog1.jpg"
+        name: "Lake Hillier"
       },
       {
         id: 13,
-        name: "Bronce Line",
-        imageLink: "/images/catalog1.jpg"
+        name: "Hyams Beach"
       },
       {
         id: 14,
-        name: "Arch Line",
-        imageLink: "/images/catalog14.jpg"
+        name: "Horrocks Beach",
+        imageLink: "/images/beaches/beach14.jpg"
       },
       {
         id: 15,
-        name: "Point Line",
-        imageLink: "/images/catalog15.jpg"
+        name: "Byron Bay",
+        imageLink: "/images/beaches/beach15.jpg"
       }
     ]
   };
@@ -92,7 +81,7 @@ class Catalog extends Component {
       <div>
         <main className="Catalog">
           <div className="main-page">
-            <h1>Catalogue</h1>
+            <h1>Place to Visit</h1>
             <div className="all-catalog">
               <div className="all-catalog__col">
                 <div className="all-catalog__row all-catalog__row--card all-catalog__row--right">

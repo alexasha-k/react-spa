@@ -30,6 +30,11 @@ header .logo {
   align-items: center;
 }
 
+.header-navigation__item--sm {
+  width: 7.5%;
+  flex-basis: 7.5%;
+}
+
 .header-navigation__item::before {
   content: "";
   display: block;

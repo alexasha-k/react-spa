@@ -55,6 +55,7 @@ class App extends Component {
                     render={props => (
                       <Detailed
                         {...props}
+                        collectionLength={this.state.collectionLength}
                         onChangePage={this.onChangeDetailedPage}
                       />
                     )}

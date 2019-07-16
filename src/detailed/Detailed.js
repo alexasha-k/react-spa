@@ -6,7 +6,7 @@ import SlideThree from "../slides/SlideThree";
 import SlideFour from "../slides/SlideFour";
 import { Switch, Route } from "react-router-dom";
 
-import items from "../collections.json";
+import items from "../beaches.json";
 
 import "./Detailed.css";
 
@@ -15,6 +15,12 @@ class Detailed extends Component {
     currentSlide: 1,
     item: {},
     slidesLength: 4
+  };
+
+  pageInFocus = React.createRef();
+
+  focusPage = () => {
+    this.pageInFocus.current.focus();
   };
 
   getItemData = () => {
@@ -29,23 +35,59 @@ class Detailed extends Component {
     this.props.history.push("/collection/" + id + "/" + newVal);
   };
 
-  countNewSlideVal = num => {
-    if (num > 0) {
-      const slide =
-        this.state.currentSlide + 1 <= this.state.slidesLength
-          ? this.state.currentSlide + 1
-          : 1;
-      this.changeCurrentSlide(slide);
-    } else if (num < 0) {
-      const slide =
-        this.state.currentSlide - 1 > 0
-          ? this.state.currentSlide - 1
-          : this.state.slidesLength - 1;
-      this.changeCurrentSlide(slide);
+  incrementNewSlideVal = () => {
+    const nextSlide = this.state.currentSlide + 1;
+    const slide = nextSlide <= this.state.slidesLength ? nextSlide : 1;
+    this.changeCurrentSlide(slide);
+  };
+
+  decrementNewSlideVal = () => {
+    const prevSlide = this.state.currentSlide - 1;
+    const slide = prevSlide > 0 ? prevSlide : this.state.slidesLength;
+    this.changeCurrentSlide(slide);
+  };
+
+  countNewSlideVal = delta => {
+    if (delta > 0) {
+      this.incrementNewSlideVal();
+    } else if (delta <= 0) {
+      this.decrementNewSlideVal();
+    }
+  };
+
+  goToNextPage = () => {
+    const nextId = +this.props.match.params.id + 1;
+    const id = nextId > this.props.collectionLength ? 1 : nextId;
+    this.props.history.push("/collection/" + id + "/1");
+  };
+
+  goToPrevPage = () => {
+    const prevId = +this.props.match.params.id - 1;
+    const id = prevId <= 0 ? this.props.collectionLength : prevId;
+    this.props.history.push("/collection/" + id + "/1");
+  };
+
+  handleKeyPress = e => {
+    switch (e.keyCode) {
+      case 40:
+        this.incrementNewSlideVal();
+        break;
+      case 38:
+        this.decrementNewSlideVal();
+        break;
+      case 39:
+        this.goToNextPage();
+        break;
+      case 37:
+        this.goToPrevPage();
+        break;
+      default:
+        return false;
     }
   };
 
   componentDidMount() {
+    this.focusPage();
     this.getItemData();
   }
 
@@ -59,8 +101,11 @@ class Detailed extends Component {
   render() {
     return (
       <div
+        ref={this.pageInFocus}
         className="Detailed"
+        tabIndex="1"
         onWheel={evt => this.countNewSlideVal(evt.deltaY)}
+        onKeyDown={this.handleKeyPress}
       >
         <Route
           render={() => (

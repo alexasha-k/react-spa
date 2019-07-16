@@ -14,9 +14,15 @@ class Header extends Component {
         : this.props.currentCollection + 1;
     return (
       <header>
-        <div className="logo">Agata Bielen</div>
+        <div className="logo">Beaches of Australia</div>
         <nav className="header-navigation">
-          <div className="header-navigation__item">
+          <div
+            className={
+              !this.props.mainPage
+                ? "header-navigation__item header-navigation__item--sm"
+                : "header-navigation__item"
+            }
+          >
             <Link
               to={"/collection/" + prev + "/1"}
               className={this.props.mainPage ? "disabled" : ""}
@@ -24,7 +30,13 @@ class Header extends Component {
               previous
             </Link>
           </div>
-          <div className="header-navigation__item">
+          <div
+            className={
+              !this.props.mainPage
+                ? "header-navigation__item header-navigation__item--sm"
+                : "header-navigation__item"
+            }
+          >
             <Link
               to={"/collection/" + next + "/1"}
               className={this.props.mainPage ? "disabled" : ""}

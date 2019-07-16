@@ -3,10 +3,10 @@
     "id": 1,
     "name": "Right Line",
     "imageLink": "/images/catalog1.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog1-1.jpg",
+    "imageLink3": "/images/catalog1-2.jpg",
+    "imageLink4": "/images/catalog1-3.jpg",
+    "imageLink5": "/images/catalog1-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -23,19 +23,20 @@
     "id": 2,
     "name": "Nature Line",
     "imageLink": "/images/catalog2.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog2-1.jpg",
+    "imageLink3": "/images/catalog2-2.jpg",
+    "imageLink4": "/images/catalog2-3.jpg",
+    "imageLink5": "/images/catalog2-4.jpg",
     "description":
-      "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
+      "The Nature Line Collection is, as the name suggests, mused by nature and the organic and seamless lines that result. Available in a sterling silver finish, all pieces are subtle lines of irregularly shaped geometries for adornment. The feint and light-weightedness of the collection is typical of Bieleń, and her style, and this collection is no exception.\n This collection sees a launch from her traditional, more rigid geometries and sees her exploring natural materials and fauna as inspiration. Based in Poland, the emphasis is on round and soft forms which opposes her traditional style. ",
     "description2":
-      "It is a pleasure to observe the different forms the geometric shapes take on when draped around the arm, the neck, the finger or the ear. It is fascinating how they change their appearance when the person wearing them changes posture or position.",
+      "Handcrafted and playing on the cross-over of modernity and natural form, this collection is a beautiful addition.",
     "slogan":
-      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
-    "slogan2": "The most simple forms create the strongest visual effects.",
+      "   Organic    \n         objects   \n            adapt \nto the body\n       discreetly.",
+    "slogan2":
+      "Inspired by water lilies floating on the pond surface & spreading aquatic circles.",
     "collectionYear": "2016",
-    "collectionSeason": "Spring/Summer",
+    "collectionSeason": "Fall/Winter",
     "collectionDesigner": "Jana Ahrens",
     "collectionBithday": "07.07.2017"
   },
@@ -43,10 +44,10 @@
     "id": 3,
     "name": "Storm Line",
     "imageLink": "/images/catalog1.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog1-1.jpg",
+    "imageLink3": "/images/catalog1-2.jpg",
+    "imageLink4": "/images/catalog1-3.jpg",
+    "imageLink5": "/images/catalog1-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -63,10 +64,10 @@
     "id": 4,
     "name": "Valley Line",
     "imageLink": "/images/catalog1.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog2-1.jpg",
+    "imageLink3": "/images/catalog2-2.jpg",
+    "imageLink4": "/images/catalog2-3.jpg",
+    "imageLink5": "/images/catalog2-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -83,10 +84,10 @@
     "id": 5,
     "name": "Mountain Line",
     "imageLink": "/images/catalog1.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog1-1.jpg",
+    "imageLink3": "/images/catalog1-2.jpg",
+    "imageLink4": "/images/catalog1-3.jpg",
+    "imageLink5": "/images/catalog1-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -103,10 +104,10 @@
     "id": 6,
     "name": "Desert Line",
     "imageLink": "/images/catalog1.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog2-1.jpg",
+    "imageLink3": "/images/catalog2-2.jpg",
+    "imageLink4": "/images/catalog2-3.jpg",
+    "imageLink5": "/images/catalog2-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -123,10 +124,10 @@
     "id": 7,
     "name": "Woods Line",
     "imageLink": "/images/catalog1.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog1-1.jpg",
+    "imageLink3": "/images/catalog1-2.jpg",
+    "imageLink4": "/images/catalog1-3.jpg",
+    "imageLink5": "/images/catalog1-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -143,10 +144,10 @@
     "id": 8,
     "name": "Beach Line",
     "imageLink": "/images/catalog1.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog2-1.jpg",
+    "imageLink3": "/images/catalog2-2.jpg",
+    "imageLink4": "/images/catalog2-3.jpg",
+    "imageLink5": "/images/catalog2-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -163,10 +164,10 @@
     "id": 9,
     "name": "Gold Line",
     "imageLink": "/images/catalog1.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog1-1.jpg",
+    "imageLink3": "/images/catalog1-2.jpg",
+    "imageLink4": "/images/catalog1-3.jpg",
+    "imageLink5": "/images/catalog1-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -183,10 +184,10 @@
     "id": 10,
     "name": "Silver Line",
     "imageLink": "/images/catalog1.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog2-1.jpg",
+    "imageLink3": "/images/catalog2-2.jpg",
+    "imageLink4": "/images/catalog2-3.jpg",
+    "imageLink5": "/images/catalog2-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -203,10 +204,10 @@
     "id": 11,
     "name": "Bronce Line",
     "imageLink": "/images/catalog1.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog1-1.jpg",
+    "imageLink3": "/images/catalog1-2.jpg",
+    "imageLink4": "/images/catalog1-3.jpg",
+    "imageLink5": "/images/catalog1-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -223,10 +224,10 @@
     "id": 12,
     "name": "Lion Line",
     "imageLink": "/images/catalog1.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog2-1.jpg",
+    "imageLink3": "/images/catalog2-2.jpg",
+    "imageLink4": "/images/catalog2-3.jpg",
+    "imageLink5": "/images/catalog2-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -243,10 +244,10 @@
     "id": 13,
     "name": "Bronce Line",
     "imageLink": "/images/catalog1.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog1-1.jpg",
+    "imageLink3": "/images/catalog1-2.jpg",
+    "imageLink4": "/images/catalog1-3.jpg",
+    "imageLink5": "/images/catalog1-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -263,10 +264,10 @@
     "id": 14,
     "name": "Arch Line",
     "imageLink": "/images/catalog14.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog2-1.jpg",
+    "imageLink3": "/images/catalog2-2.jpg",
+    "imageLink4": "/images/catalog2-3.jpg",
+    "imageLink5": "/images/catalog2-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
@@ -283,10 +284,10 @@
     "id": 15,
     "name": "Point Line",
     "imageLink": "/images/catalog15.jpg",
-    "imageLink2": "/images/catalog1.jpg",
-    "imageLink3": "/images/catalog1.jpg",
-    "imageLink4": "/images/catalog1.jpg",
-    "imageLink5": "/images/catalog1.jpg",
+    "imageLink2": "/images/catalog1-1.jpg",
+    "imageLink3": "/images/catalog1-2.jpg",
+    "imageLink4": "/images/catalog1-3.jpg",
+    "imageLink5": "/images/catalog1-4.jpg",
     "description":
       "The line broken, bent and bonded in space, creates three-dimensional forms. This very simple statement on geometry and technique is one of Agata Bieleń’s elemental design principles. And the Poland based jewellery designer makes sure to come closer and closer  to this principle with every collection she creates. For Spring/Summer 2016 she focusses on the optical illusion created by fine lines running through space, more broken than bent or bonded. That’s why the collection bears the name Right Line.",
     "description2":
