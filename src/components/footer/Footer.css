@@ -1,0 +1,30 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 5;
+  padding: 0 60px 40px;
+  pointer-events: none;
+}
+
+.footer-navigation {
+  margin-top: -25px;
+}
+
+.footer-navigation a:not(.disabled) {
+  pointer-events: auto;
+}
+
+@media (max-height: 767px) and (orientation: landscape) {
+  footer {
+    padding: 0 32px 4px;
+  }
+}
+
+@media (orientation: portrait) {
+  footer {
+    padding: 0 16px 16px;
+  }
+}

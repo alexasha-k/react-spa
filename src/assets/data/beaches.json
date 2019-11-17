@@ -1,0 +1,329 @@
+[
+  {
+    "id": 1,
+    "name": "Surfers Paradise",
+    "imageLink": "/images/catalog1.jpg",
+    "imageLink2": "/images/beaches/beach1-1.jpg",
+    "imageLink3": "/images/beaches/beach1-2.jpg",
+    "imageLink4": "/images/beaches/beach1-3.jpg",
+    "imageLink5": "/images/beaches/beach1-4.jpg",
+    "description":
+      "The three-kilometer strip of golden sand between Surfers Paradise and the Pacific Ocean is Australia's iconic beach, a postcard-perfect locale that conjures up 'paradise' to millions. Throughout the year, our beach welcomes swimmers, joggers, surfers and strollers from around the Gold Coast, around Australia and around the World. ",
+    "description2":
+      "As its name suggests, Surfers Paradise delivers idyllic weather conditions with warm, sunny days, providing the perfect setting for whatever you have planned during your visit, be that beach, attractions, dining or shopping.",
+    "slogan":
+      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
+    "slogan2":
+      "After a visit to the beach, it's hard to believe that we live in a material world.",
+    "sloganAuthor": "Anonymous",
+    "collectionYear": "2016",
+    "collectionSeason": "28.0000°S/153.4167°E",
+    "collectionDesigner": "QLD",
+    "collectionBithday": "07.07.2017"
+  },
+  {
+    "id": 2,
+    "name": "Wineglass Bay",
+    "imageLink": "/images/catalog2.jpg",
+    "imageLink2": "/images/beaches/beach2-1.jpg",
+    "imageLink3": "/images/beaches/beach2-2.jpg",
+    "imageLink4": "/images/beaches/beach2-3.jpg",
+    "imageLink5": "/images/beaches/beach2-4.jpg",
+    "description":
+      "Coles Bay and Freycinet . . .THE place to stay. Relax in the beauty of this magical place. Don’t just stop. Do more than visit. Stay for a while and enjoy our special piece of paradise. Coles Bay’s local tourism and community association are excited to announce the release of our first YouTube video which features lots of beautiful local scenery, including local activities, attractions, accommodation.",
+    "description2":
+      "The sunsets are golden. The weather is fine. There is lots to do. Take the cruise around the Peninsula. Have a leisurely walk in Freycinet National Park. Kayak around the Bay. Go bush on a quad bike. See Wineglass Bay from the air. Or if you want to, chill out, relax and read a book. Whatever your idea of a holiday, this is the place.",
+    "slogan":
+      "   Organic    \n         objects   \n            adapt \nto the body\n       discreetly.",
+    "slogan2":
+      "The voice of the sea speaks to the soul. The touch of the sea is sensuous, enfolding the body in its soft, close embrace.",
+    "sloganAuthor": "Kate Chopin",
+    "collectionYear": "2016",
+    "collectionSeason": "42.1306°S/148.3123°E",
+    "collectionDesigner": "TAS",
+    "collectionBithday": "07.07.2017"
+  },
+  {
+    "id": 3,
+    "name": "Whitehaven Beach",
+    "imageLink": "/images/beaches/beach3.jpg",
+    "imageLink2": "/images/beaches/beach3-1.jpg",
+    "imageLink3": "/images/beaches/beach3-2.jpg",
+    "imageLink4": "/images/beaches/beach3-3.jpg",
+    "imageLink5": "/images/beaches/beach3-4.jpg",
+    "description":
+      "Located in the heart of the Great Barrier Reef, Whitehaven Beach is one of the world’s most unspoiled and beautiful beaches. In 2013, it was named the ‘number one beach in Australia’ by the TripAdvisor Travellers’ Choice Beaches Awards. \n In 2017, Whitehaven Beach was rated the #1 Beach in the South Pacific in the TripAdvisor Travellers' Choice Awards.",
+    "description2":
+      "Whitsunday Island’s famous beach stretches for seven kilometres and is washed by swirls of turquoise, blue and green water. The sand is 98 per cent pure white silica, which gives it a brilliant, near luminescent colour.",
+    "slogan": "A slice\n      of paradise",
+    "slogan2":
+      "With its warm, turquoise-hued water and soft, impeccably white sand, Whitehaven Beach is simply heaven on earth.",
+    "sloganAuthor": "",
+    "collectionYear": "2017",
+    "collectionSeason": "20.2824°S/149.0389°E",
+    "collectionDesigner": "QLD",
+    "collectionBithday": "www.hamiltonisland.com.au"
+  },
+  {
+    "id": 4,
+    "name": "Wategos Beach",
+    "imageLink": "/images/beaches/beach4.jpg",
+    "imageLink2": "/images/beaches/beach4-1.jpg",
+    "imageLink3": "/images/beaches/beach4-2.jpg",
+    "imageLink4": "/images/beaches/beach4-3.jpg",
+    "imageLink5": "/images/beaches/beach4-4.jpg",
+    "description":
+      "Wategos Beach was originally named Little Beach. In 1933 Murray (Mick) Watego leased one of three available blocks of land above the small arc of beach.  He and his wife, Mary and 10 children grew bananas and other fruits and vegetables on the land to supply local and Sydney markets.\n Murray was a respected member of the community and a well-known member of the Byron Bay RSL having served in WWI. He passed away in 1953 and the land lease ended in 1959.",
+    "description2":
+      "Wategos Beach is located 2 km east of the Byron Bay town centre. A peaceful sheltered little beach that is ideal for families, a fantastic place to picnic, play in the sand and swim.",
+    "slogan":
+      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
+    "slogan2":
+      "The Sea, once it casts its spell, holds one in its net of wonder forever.",
+    "sloganAuthor": "Jacques Cousteau",
+    "collectionYear": "2016",
+    "collectionSeason": "28.6364°S/153.6338°E",
+    "collectionDesigner": "NSW",
+    "collectionBithday": "www.byron-bay.com"
+  },
+  {
+    "id": 5,
+    "name": "Turquoise Bay",
+    "imageLink": "/images/beaches/beach5.jpg",
+    "imageLink2": "/images/beaches/beach5-1.jpg",
+    "imageLink3": "/images/beaches/beach5-2.jpg",
+    "imageLink4": "/images/beaches/beach5-3.jpg",
+    "imageLink5": "/images/beaches/beach5-4.jpg",
+    "description":
+      "Known as one of Western Australia's best beaches, Turquoise Bay is the perfect spot to spend an afternoon relaxing, swimming and snorkelling.\nThe white, sandy shores give way to clear waters harbouring a plethora of marine life.  Dive into the pristine waters at Turquoise Bay to swim and snorkel within a few metres of Ningaloo Reef.",
+    "description2":
+      "Exploring the reef at the snorkel drift is popular at Turquoise Bay. Enter the water at the southern end of the beach and let the current take you over the reef for a fantastic snorkelling experience. Currents can be strong at Turquoise Bay, especially around the sandbar and at the southernmost point of the bay, so please take care.",
+    "slogan":
+      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
+    "slogan2":
+      "In every outthrust headland, in every curving beach, in every grain of sand there is the story of the earth.",
+    "sloganAuthor": "Rachel Carson",
+    "collectionYear": "2016",
+    "collectionSeason": "22.0964°S/113.8894°E",
+    "collectionDesigner": "WA",
+    "collectionBithday": "parks.dpaw.wa.gov.au"
+  },
+  {
+    "id": 6,
+    "name": "Shelly Beach",
+    "imageLink": "/images/catalog1.jpg",
+    "imageLink2": "/images/beaches/beach6-1.jpg",
+    "imageLink3": "/images/beaches/beach6-2.jpg",
+    "imageLink4": "/images/beaches/beach6-3.jpg",
+    "imageLink5": "/images/beaches/beach6-4.jpg",
+    "description":
+      "Shelly Beach is located in Manly and forms part of Cabbage Tree Bay, a protected marine reserve which lies adjacent to North Head and Fairy Bower. With a maximum depth of approximately 12 metres, Shelly Beach has become popular with Scuba Divers and Snorkelers alike with a large variety of marine life which can viewed in relatively shallow water.",
+    "description2":
+      "Take a walk around the bush track which hugs the headland offering spectacular views of North Head and the Northern Beaches. Shelly Beach has showers, toilets and a kiosk along with two free electic barbeques, perfect for that family picnic. For a more formal dining option, there is a restaurant on the beach named Le Kiosk.",
+    "slogan":
+      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
+    "slogan2":
+      "The sea does not reward those who are too anxious, too greedy, or too impatient. One should lie empty, open, choiceless as a beach - waiting for a gift from the sea.",
+    "sloganAuthor": "Anne Morrow Lindbergh",
+    "collectionYear": "2016",
+    "collectionSeason": "33.3700°S/151.4859°E",
+    "collectionDesigner": "NSW",
+    "collectionBithday": "07.07.2017"
+  },
+  {
+    "id": 7,
+    "name": "Second Valley Beach",
+    "imageLink": "/images/catalog1.jpg",
+    "imageLink2": "/images/beaches/beach7-1.jpg",
+    "imageLink3": "/images/beaches/beach7-2.jpg",
+    "imageLink4": "/images/beaches/beach7-3.jpg",
+    "imageLink5": "/images/beaches/beach7-4.jpg",
+    "description":
+      "Second Valley Beach is one of South Australia's most instagramed locations. It offers stunning views of the coastline and unique geological formations. This beach is popular for swimming, jetty fishing, snorkelling and scuba diving. Follow the open valley that narrows at the coast to a gap, through which flows the small Parananacooka Creek and the road to the beach. The small town and caravan park lies on the landward side of the gap. There is a small car park leading to a jetty with the two small beaches to either side. ",
+    "description2":
+      "The eastern beach is sandy and popular for swimming. To the west is a north facing curving long boulder beach attached by rock reefs to a small headland. Conditions are usually calm at this part of the beach; however it is dominated by rocks and reef.",
+    "slogan":
+      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
+    "slogan2":
+      "The three great elemental sounds in nature are the sound of rain, the sound of wind in a primeval wood, and the sound of outer ocean on a beach.",
+    "sloganAuthor": "Henry Beston",
+    "collectionYear": "2016",
+    "collectionSeason": "35.3126°S/138.1319°E",
+    "collectionDesigner": "SA",
+    "collectionBithday": "07.07.2017"
+  },
+  {
+    "id": 8,
+    "name": "Seal Rocks",
+    "imageLink": "/images/catalog1.jpg",
+    "imageLink2": "/images/beaches/beach8-1.jpg",
+    "imageLink3": "/images/beaches/beach8-2.jpg",
+    "imageLink4": "/images/beaches/beach8-3.jpg",
+    "imageLink5": "/images/beaches/beach8-4.jpg",
+    "description":
+      "Seal Rocks is more a holiday village than an actual town. It is really nothing more than a beach, a few houses and an impressive lighthouse protecting shipping from the town's namesake. The location's main appeal lies in its unspoilt surfing beaches - it is a noted surfing destination; its importance as a diving destination; and, most notably, the spectacularly beautiful Sugarloaf Point Lighthouse which overlooks an unspoilt beach, is positioned on a dramatic headland and now offers accommodation in the old Lighthouse Keeper's cottages.",
+    "description2":
+      "Seal Rocks is located 277 km north along the coast from Sydney via the Pacific Highway, the Lakes Way and Seal Rocks Road.",
+    "slogan":
+      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
+    "slogan2":
+      "To escape and sit quietly on the beach - that's my idea of paradise.",
+    "sloganAuthor": "Mary Roach",
+    "collectionYear": "2016",
+    "collectionSeason": "32.4353°S/152.5257°E",
+    "collectionDesigner": "NSW",
+    "collectionBithday": "07.07.2017"
+  },
+  {
+    "id": 9,
+    "name": "Nudey Beach",
+    "imageLink": "/images/catalog1.jpg",
+    "imageLink2": "/images/beaches/beach9-1.jpg",
+    "imageLink3": "/images/beaches/beach9-2.jpg",
+    "imageLink4": "/images/beaches/beach9-3.jpg",
+    "imageLink5": "/images/beaches/beach9-4.jpg",
+    "description":
+      "Starting out from Cairns you take a 45-minute ride on one of three Fitzroy Flyers that run daily. You arrive at Welcome Bay, which is directly in front of the Fitzroy Island Resort. From Welcome Bay, you can start your walk south along the Nudey Beach Walking Track which can be accessed from behind the bar near Foxy’s. In total it is only a leisurely 15-minute walk, which winds through tropical rainforest and coastal woodlands before eventually opening up onto the stunning, award-winning white coral beach.",
+    "description2":
+      "Nudey Beach has a relaxed, friendly vibe. Often you’ll be sharing the beach with only a few other visitors. Nudey Beach is ideal for laying out a towel and soaking up some of the year round warm tropical weather.",
+    "slogan":
+      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
+    "slogan2":
+      "Our memories of the ocean will linger on, long after our footprints in the sand are gone.    ",
+    "sloganAuthor": "Anonymous",
+    "collectionYear": "2016",
+    "collectionSeason": "16.9352°S/145.9830°E",
+    "collectionDesigner": "QLD",
+    "collectionBithday": "07.07.2017"
+  },
+  {
+    "id": 10,
+    "name": "Noosa Heads",
+    "imageLink": "/images/catalog1.jpg",
+    "imageLink2": "/images/beaches/beach10-1.jpg",
+    "imageLink3": "/images/beaches/beach10-2.jpg",
+    "imageLink4": "/images/beaches/beach10-3.jpg",
+    "imageLink5": "/images/beaches/beach10-4.jpg",
+    "description":
+      "Low-rise and leafy, the coastal town of Noosa Heads is popular with visitors from around Australia and overseas. Surrounded by the calm waters of Laguna Bay, Noosa National Park and the tranquil Noosa River, it's no surprise that Noosa Heads has long been a favourite holiday destination. At the heart of Noosa Heads is Hastings Street, a relaxed, pedestrian-friendly, beachside thoroughfare that is a haven for visitors who flock to the resort accommodation, cosmopolitan cafes, designer shops and alfresco dining.",
+    "description2":
+      "The best thing about a holiday in Noosa is that there really is so much to do, you will need to come back again and again to make sure you experience everything. From its stunning natural beauty, brilliant weather, amazing shopping, top restaurants, bars and eateries to the many fantastic outdoor activities and tours - there really is so much to explore and discover in Noosa and its surrounds.",
+    "slogan": "A walk\n on the Beach\n is worth\n a Thousand\n Words",
+    "slogan2":
+      "If there's a heaven for me, I'm sure it has a beach attached to it. ",
+    "sloganAuthor": "Jimmy Buffett",
+    "collectionYear": "2016",
+    "collectionSeason": "26.3980°S/153.0930°E",
+    "collectionDesigner": "QLD",
+    "collectionBithday": "07.07.2017"
+  },
+  {
+    "id": 11,
+    "name": "Manly Beach",
+    "imageLink": "/images/catalog1.jpg",
+    "imageLink2": "/images/beaches/beach11-1.jpg",
+    "imageLink3": "/images/beaches/beach11-2.jpg",
+    "imageLink4": "/images/beaches/beach11-3.jpg",
+    "imageLink5": "/images/beaches/beach11-4.jpg",
+    "description":
+      "Relax on lovely Manly Beach, one of Australia’s most famous beaches where the first world surfing contest was held in 1964. You’ll find plenty of wonderful things to do and see, from picnics on the promenade to fun and informative tours, including surfing, snorkelling, diving, cycling and walking.",
+    "description2":
+      "The iconic beach curves from South Steyne to North Steyne and Queenscliff, where a submerged reef, or bombora, creates waves prized by top surfers. Just south of Manly Beach is Shelly Beach in Cabbage Tree Bay, an aquatic reserve teeming with colourful fish such as blue groper and cuttlefish.",
+    "slogan":
+      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
+    "slogan2": "The beach is not a place to work; to read, write or to think.",
+    "sloganAuthor": "Anne Morrow Lindbergh",
+    "collectionYear": "2016",
+    "collectionSeason": "33.7932°S/151.2876°E",
+    "collectionDesigner": "NSW",
+    "collectionBithday": "07.07.2017"
+  },
+  {
+    "id": 12,
+    "name": "Lake Hillier",
+    "imageLink": "/images/catalog1.jpg",
+    "imageLink2": "/images/beaches/beach12-1.jpg",
+    "imageLink3": "/images/beaches/beach12-2.jpg",
+    "imageLink4": "/images/beaches/beach12-3.jpg",
+    "imageLink5": "/images/beaches/beach12-4.jpg",
+    "description":
+      "The lake is separated from the Southern Ocean by just a thin strip of sand and it's widely believed that the water's permanent strawberry milkshake colour is due to the extremely high level of salinity. This discovery was made as early as 1802, when Matthew Flinders led an expedition to the islands and collected a sample from the lake, but there has been no definitive proof that salt is the source of its unique hue.",
+    "description2":
+      "Measuring just 600 metres wide and shaped like a footprint, this relatively small feature has a huge impact when viewed from a scenic flight or cruise, and the untouched islands of the Recherche Archipelago create a stunning backdrop, rich in marine life.",
+    "slogan":
+      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
+    "slogan2":
+      "My life is like a stroll on the beach... as near to the edge as I can go. ",
+    "sloganAuthor": "Thoreau",
+    "collectionYear": "2016",
+    "collectionSeason": "34.0950°S/123.2028°E",
+    "collectionDesigner": "WA",
+    "collectionBithday": "07.07.2017"
+  },
+  {
+    "id": 13,
+    "name": "Hyams Beach",
+    "imageLink": "/images/catalog1.jpg",
+    "imageLink2": "/images/beaches/beach13-1.jpg",
+    "imageLink3": "/images/beaches/beach13-2.jpg",
+    "imageLink4": "/images/beaches/beach13-3.jpg",
+    "imageLink5": "/images/beaches/beach13-4.jpg",
+    "description":
+      "Hyams Beach is the most well known of the white sands beaches of Jervis Bay, but there are actually 16 amazing and lesser known treasures to discover. Located on the southern shores of Jervis bay, a diverse and beautiful landscape with quiet beaches and great whale watching, it is a popular holiday spot on the South Coast of New South Wales and best visited outside of the busy summer periods around December and January.",
+    "description2":
+      "Simply taking off your shoes and walking the length of this dazzling sweep of beach, feeling the soft white sand underfoot all the way, is a wonderful way to shake off any stress. Hyams is located within the wider cove of Jervis Bay so it is protected from large swells; the water is generally flat, shallow and a sublime aqua colour.",
+    "slogan":
+      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
+    "slogan2":
+      "Don't grow up too quickly, lest you forget how much you love the beach.",
+    "sloganAuthor": "Michelle Held",
+    "collectionYear": "2016",
+    "collectionSeason": "35.1033°S/150.6919°E",
+    "collectionDesigner": "NSW",
+    "collectionBithday": "07.07.2017"
+  },
+  {
+    "id": 14,
+    "name": "Horrocks Beach",
+    "imageLink": "/images/catalog14.jpg",
+    "imageLink2": "/images/beaches/beach14-1.jpg",
+    "imageLink3": "/images/beaches/beach14-2.jpg",
+    "imageLink4": "/images/beaches/beach14-3.jpg",
+    "imageLink5": "/images/beaches/beach14-4.jpg",
+    "description":
+      "Horrocks stretches a 7km section of WA’s Coral Coast from the Bowes River Mouth of local fishing and surfing fame, along a shallow fringing, wash-lashed coral reef northwards, to a cluster of ‘off-the-grid’ beachside camping sites at spectacular Little Bay, or the Whaleboat Cove as it appears on some historic maps. The sandstone escarpment following the river is rich in Indigenous culture. Willigully Caves feature rock art created by the Nhanda people to describe and communicate their traditions, ideas and values.",
+    "description2":
+      "The General Store has supplies and some the best fish n’ chips around, which can be taken to the beach and enjoyed while taking in a beautiful West Australian sunset.",
+    "slogan":
+      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
+    "slogan2":
+      "I honestly think the beach is the only place children actually entertain themselves.",
+    "sloganAuthor": "Donna McLavy",
+    "collectionYear": "2016",
+    "collectionSeason": "28.2254°S/114.2549°E",
+    "collectionDesigner": "WA",
+    "collectionBithday": "07.07.2017"
+  },
+  {
+    "id": 15,
+    "name": "Byron Bay",
+    "imageLink": "/images/catalog15.jpg",
+    "imageLink2": "/images/beaches/beach15-1.jpg",
+    "imageLink3": "/images/beaches/beach15-2.jpg",
+    "imageLink4": "/images/beaches/beach15-3.jpg",
+    "imageLink5": "/images/beaches/beach15-4.jpg",
+    "description":
+      "The Byron Bay Beaches are legendary in the surfing community. They draw thousands from around the world who come to ride their waves, many never leave, and I don’t think you could get any more Australian than learning to surf at Byron Bay. Australia is known for its beaches, we have over 10,000 of them, and Byron has some of the best in the country.",
+    "description2":
+      "But you don’t have to be a surfer to appreciate the amazing beaches on offer in Byron. Just taking a swim, a walk or celebrating one of the magic sunsets with a cold drink is enough to cast that spell over you that many can’t escape from.",
+    "slogan":
+      "          Beauty \n      is the \n      harmony\nof purpose \n     & form.",
+    "slogan2":
+      "After a visit to the beach, it's hard to believe that we live in a material world. ",
+    "sloganAuthor": "Pam Shaw",
+    "collectionYear": "2016",
+    "collectionSeason": "28.6474°S/153.6020°E",
+    "collectionDesigner": "NSW",
+    "collectionBithday": "07.07.2017"
+  }
+]

@@ -7,17 +7,16 @@ const SliderControl = props => {
     }
     return (i + 1).toString();
   });
-  function changeCurrentSlide(num) {
-    props.onChangeCurrentSlide(+num);
-  }
+
   return controls.map(item => {
     const classes =
       +item === +props.current ? "slider-control current" : "slider-control";
     return (
       <div
-        key={item.toString()}
+        key={item}
         className={classes}
-        onClick={() => changeCurrentSlide(item)}
+        tabIndex="0"
+        onClick={() => props.onChangeCurrentSlide(+item)}
       >
         {item}
       </div>

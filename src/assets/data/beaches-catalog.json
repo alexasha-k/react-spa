@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Surfers Paradise",
+    "imageLink": "/images/beaches/beach1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Wineglass Bay",
+    "imageLink": "/images/beaches/beach2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Whitehaven Beach"
+  },
+  {
+    "id": 4,
+    "name": "Wategos Beach"
+  },
+  {
+    "id": 5,
+    "name": "Turquoise Bay"
+  },
+  {
+    "id": 6,
+    "name": "Shelly Beach"
+  },
+  {
+    "id": 7,
+    "name": "Second Valley Beach"
+  },
+  {
+    "id": 8,
+    "name": "Seal Rocks"
+  },
+  {
+    "id": 9,
+    "name": "Nudey Beach"
+  },
+  {
+    "id": 10,
+    "name": "Noosa Heads"
+  },
+  {
+    "id": 11,
+    "name": "Manly Beach"
+  },
+  {
+    "id": 12,
+    "name": "Lake Hillier"
+  },
+  {
+    "id": 13,
+    "name": "Hyams Beach"
+  },
+  {
+    "id": 14,
+    "name": "Horrocks Beach",
+    "imageLink": "/images/beaches/beach14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Byron Bay",
+    "imageLink": "/images/beaches/beach15.jpg"
+  }
+]
