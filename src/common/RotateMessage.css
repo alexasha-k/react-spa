@@ -1,7 +1,7 @@
 .rotate-message {
   display: none;
 }
-@media (max-width: 767px) and (orientation: portrait) {
+@media (max-width: 1199px) and (orientation: portrait) {
   body {
     overflow: hidden;
   }

@@ -112,7 +112,7 @@
   font-weight: 600;
 }
 
-@media (max-height: 767px) and (orientation: landscape) {
+@media (max-height: 1199px) and (orientation: landscape) {
   .catalog {
     padding: 36px 38px 36px;
   }

@@ -17,7 +17,7 @@ footer {
   pointer-events: auto;
 }
 
-@media (max-height: 767px) and (orientation: landscape) {
+@media (max-height: 1199px) and (orientation: landscape) {
   footer {
     padding: 0 32px 4px;
   }

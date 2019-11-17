@@ -57,7 +57,7 @@
   height: 130px;
 }
 
-@media (max-height: 767px) and (orientation: landscape) {
+@media (max-height: 1199px) and (orientation: landscape) {
   .slider-controls {
     right: 16px;
   }

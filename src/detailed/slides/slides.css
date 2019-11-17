@@ -215,12 +215,15 @@
   letter-spacing: -0.72px;
 }
 
-@media (max-height: 767px) and (orientation: landscape) {
+@media (max-height: 1199px) and (orientation: landscape) {
   .SlideOne .text {
     margin-top: 8px;
     margin-bottom: 36px;
     min-width: 280px;
     width: 80%;
+  }
+  .SlideOne .image {
+    max-width: 380px;
   }
   .SlideOne h2 {
     position: relative;
@@ -256,6 +259,7 @@
   .SlideFour .image {
     margin-right: 24px;
     margin-left: 24px;
+    max-width: 30%;
   }
   .SlideFour .season,
   .SlideFour .year {

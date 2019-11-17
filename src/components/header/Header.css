@@ -57,7 +57,7 @@ header .logo {
   display: none;
 }
 
-@media (max-height: 767px) and (orientation: landscape) {
+@media (max-height: 1199px) and (orientation: landscape) {
   header {
     padding: 6px 32px 0;
   }
